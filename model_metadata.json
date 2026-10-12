@@ -1,0 +1,23 @@
+{
+    "model_name": "Tuned Random Forest",
+    "target_column": "Target",
+    "target_classes": [
+        "Dropout",
+        "Enrolled",
+        "Graduate"
+    ],
+    "selection_metric": "Macro F1",
+    "test_accuracy": 0.7028248587570621,
+    "test_macro_f1": 0.6660031113989506,
+    "input_features": [
+        "Previous qualification",
+        "Age at enrollment",
+        "Tuition fees up to date",
+        "Debtor",
+        "Scholarship holder",
+        "Curricular units 1st sem (enrolled)",
+        "Curricular units 1st sem (approved)",
+        "Curricular units 1st sem (evaluations)",
+        "Curricular units 1st sem (grade)"
+    ]
+}
